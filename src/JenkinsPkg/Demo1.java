@@ -11,7 +11,7 @@ public class Demo1
 	@Test
 	public void testA()
 	{
-		System.setProperty("webdriver.gecko.driver","C:/Users/CBT/Downloads/geckodriver-v0.9.0-win64/geckodriver.exe");
+		//System.setProperty("webdriver.gecko.driver","C:/Users/CBT/Downloads/geckodriver-v0.9.0-win64/geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("Https://www.google.com");
 		Reporter.log("Opening google..",true);
