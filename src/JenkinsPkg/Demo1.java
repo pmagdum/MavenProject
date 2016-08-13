@@ -16,5 +16,6 @@ public class Demo1
 		driver.get("Https://www.google.com");
 		Reporter.log("Opening google..",true);
 		//driver.close();
+			
 	}
 }
